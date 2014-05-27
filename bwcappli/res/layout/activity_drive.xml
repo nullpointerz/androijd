@@ -1,0 +1,120 @@
+
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical" >
+ 
+<LinearLayout
+            android:id="@+id/linearLayout3"
+            
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            
+            android:background="#000000"            
+ 			android:gravity="center">
+ 	
+       
+
+        
+        </LinearLayout>
+         <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            
+            android:orientation="horizontal"
+            
+            android:background="#000000"            
+ 			android:gravity="left|center">
+	<Button
+	android:id="@+id/forwardbutton"
+	android:layout_width="50sp"
+	android:layout_height="50sp"
+	android:background="@drawable/trianglebutton"
+	android:layout_marginLeft="55sp"/>
+</LinearLayout>
+        <RelativeLayout
+            android:id="@+id/linearLayout2"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+          
+            android:orientation="horizontal"
+            
+            android:background="#000000"            
+ 			>
+    
+   <Button
+     	android:id="@+id/leftbutton"  
+		android:layout_width="50sp"
+		android:layout_height="50sp"
+		android:background="@drawable/trianglebutton"
+		android:layout_alignParentLeft="true"
+	 	android:gravity="left|center"
+	 	android:layout_marginLeft="5sp"
+	 	android:rotation="270"
+	 />
+  
+      <Button
+          android:id="@+id/rightbutton" 
+		android:layout_width="50sp"
+		android:layout_height="50sp"
+		android:background="@drawable/trianglebutton"
+	 	android:gravity="left|center"
+	 	
+	 	android:layout_alignParentLeft="true"
+	 	android:layout_marginLeft="105sp"
+	 	android:rotation="90"
+	 />
+  
+
+		 <Button
+                android:id="@+id/saveLoc1"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+               	android:layout_alignParentRight="true"
+               	android:layout_marginRight="5sp"
+                android:background="@drawable/circlebutton"
+                
+                android:textColor="#fff"
+                 />
+		 
+            <Button
+                android:id="@+id/saveLoc2"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+        		android:layout_alignParentRight="true"
+        		android:layout_marginRight="75sp"
+                android:background="@drawable/circlebutton"
+                
+                android:textColor="#fff" />
+     </RelativeLayout>
+      
+  <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_height="0dp"
+            android:layout_width="fill_parent"
+          
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:background="#000000"            
+ 			android:gravity="left|top">
+            <Button
+    android:id="@+id/reversebutton" 
+	android:layout_width="50sp"
+	android:layout_height="50sp"
+	android:background="@drawable/trianglebutton"
+	android:layout_marginLeft="55sp"
+	android:rotation="180"	
+		/>
+            </LinearLayout>
+   
+    </LinearLayout>
+
